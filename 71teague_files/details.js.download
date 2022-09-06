@@ -1,0 +1,45 @@
+$(document).ready(function () {
+
+	$('a.emailfriend, a.emailcontract, a.property_enquiry, a.emailagent, a.bookmark').magnificPopup({
+		type: 'iframe',
+		midClick: true,
+		mainClass: 'email-frame'
+	});
+
+	$("a.full-size").magnificPopup({
+		type: 'image',
+		midClick: true,
+		fixedContentPos: false,
+		tLoading: 'Loading...',
+		mainClass: 'mfp-fade',
+		gallery: {
+			enabled: true,
+		},
+		image: {
+			verticalFit: true
+		},
+	});
+	
+	$("span.magnifier").bind('click', function() {
+		var index = $(this).siblings('img:visible').data('index');
+		$("a.full-size").filter(':eq('+index+')').click();
+		return false;
+	});
+	
+	flexslider_setup($('body.details .tab-pane'+$('body.details .nav.nav-tabs li:first-child a').attr('href')));
+	
+	$("span.magnifier").bind('click', function() {
+		var index = $(this).attr('rel');
+		if($(this).hasClass('fp')){
+			window.open(index,'_blank');
+		}else{
+			$("a.full-size").filter(':eq('+index+')').click();
+		}
+		return false;
+	});
+	
+	if($('ul.nav.nav-tabs li').length > 0){
+		$('ul.nav.nav-tabs li:first-child a').click();
+	}
+	
+});
