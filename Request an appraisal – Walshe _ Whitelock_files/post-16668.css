@@ -1,0 +1,42 @@
+.elementor-16668 .elementor-element.elementor-element-4fe61a7 .elementor-repeater-item-2462987.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}.elementor-16668 .elementor-element.elementor-element-257ea63{text-align:center;}.elementor-16668 .elementor-element.elementor-element-257ea63 .elementor-heading-title{color:#FFFFFF;font-family:"Passenger Display Bold", Sans-serif;font-size:44px;font-weight:bold;}.elementor-16668 .elementor-element.elementor-element-2155d6c > .elementor-container{max-width:704px;}.elementor-16668 .elementor-element.elementor-element-2155d6c .elementor-repeater-item-33af3cb.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}.elementor-16668 .elementor-element.elementor-element-7160753{text-align:center;color:#FFFFFF;font-family:"Univers Font", Sans-serif;font-size:19px;font-weight:400;width:initial;max-width:initial;}.elementor-16668 .elementor-element.elementor-element-2155d6c{margin-top:19px;margin-bottom:0px;}.elementor-16668 .elementor-element.elementor-element-4fe61a7:not(.elementor-motion-effects-element-type-background), .elementor-16668 .elementor-element.elementor-element-4fe61a7 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-16668 .elementor-element.elementor-element-4fe61a7{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:0px 0px 280px 0px;}.elementor-16668 .elementor-element.elementor-element-4fe61a7 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-16668 .elementor-element.elementor-element-bdf6a36 .elementor-repeater-item-33fc4d6.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}.elementor-16668 .elementor-element.elementor-element-75c1dd1{text-align:center;top:-259px;}.elementor-16668 .elementor-element.elementor-element-75c1dd1 img{width:57%;}.elementor-16668 .elementor-element.elementor-element-75c1dd1 > .elementor-widget-container{padding:0px 0px 0px 0px;}body:not(.rtl) .elementor-16668 .elementor-element.elementor-element-75c1dd1{left:-1px;}body.rtl .elementor-16668 .elementor-element.elementor-element-75c1dd1{right:-1px;}.elementor-16668 .elementor-element.elementor-element-f5dece0 .elementor-spacer-inner{--spacer-size:370px;}:root{--page-title-display:none;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Passenger Display Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-Bold.eot');
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-Bold.woff2') format('woff2'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-Bold.woff') format('woff'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Passenger Display Bold';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic.eot');
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic.woff2') format('woff2'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic.woff') format('woff'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/PassengerDisplay-BoldItalic-1.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Univers Font';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/Univers-LT-55-Roman.woff2') format('woff2'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/Univers-LT-55-Roman.woff2') format('woff'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/Univers-LT-55-Roman.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Univers Font';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/Univers-LT-75-Black.woff2') format('woff2'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2021/10/Univers-LT-75-Black.woff') format('woff'),
+		url('https://walshewhitelock.com.au/wp-content/uploads/2020/10/Univers-LT-75-Black.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,171 @@
+/**
+ * EPL Comparables CSS
+ *
+ * @package     EPL-COMPARABLES
+ * @since	1.0
+ * @subpackage  CSS/Frontend
+ * @copyright   Copyright (c) 2017, Merv Barrett
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ */
+
+
+.epl-comparables-results-download {
+	font-size: 0.9em;
+}
+
+
+/* Widget */
+.epl-comparables {
+
+}
+
+.epl-comparables-widget {
+
+}
+
+.epl-comparables-guide {
+
+}
+
+.epl-comparables-guide .epl-comparables-entry,
+.epl-comparables-guide .epl-comparables-entry:last-child {
+	margin-bottom: 0.5em;
+}
+
+.epl-comparables-guide .epl-label {
+	font-size: 0.9em;
+	display: block;
+}
+.epl-comparables-guide .epl-value {
+	font-size: 1.2em;
+	display: block;
+}
+
+.epl-comparables-results {
+
+}
+.epl-comparables-widget .epl-comparables-results h5.epl-entry-title,
+.epl-comparables-widget .epl-comparables-results h5.epl-entry-title:first-child {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.epl-comparables-results .epl-comparables-entry-background-wrapper {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ddd;
+}
+.epl-comparables-results .epl-comparables-entry-background-wrapper:last-child {
+	border-bottom: none;
+}
+
+.epl-comparables-results .epl-comparable-price {
+	display: inline-block;
+	margin-right: 1em;
+	font-weight: bold;
+}
+
+.epl-comparables-results .epl-comparable-date {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	font-size: 0.8em;
+	border-radius: 1em;
+	border: 1px solid #ccc;
+	background: #eee;
+}
+
+.epl-comparables-results .epl-comparable-date .epl-label {
+
+}
+
+.epl-comparables-results .epl-comparable-address {
+	margin-top: 0.5em;
+	font-size: 0.8em;
+}
+.epl-comparables-widget .epl-comparables-item-street {
+	display: block;
+}
+.epl-comparables-widget .epl-comparables-entry-title-sub {
+	display: block;
+}
+
+/* Extension */
+.epl-comparables-extension-background-wrapper {
+
+}
+
+.epl-comparables-extension-outer-wrapper {
+
+}
+
+.epl-comparables-extension {
+
+}
+
+.epl-comparables-extension .epl-comparables-results h5.epl-entry-title,
+.epl-comparables-extension .epl-comparables-results h5.epl-entry-title:first-child {
+	display: inline-block;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.epl-comparables-extension .epl-comparables-guide-price {
+	float: left;
+}
+
+.epl-comparables-extension .epl-comparables-guide-median-price {
+	float: left;
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ccc;
+}
+
+
+.epl-comparables-extension .epl-comparables-results {
+	float: left;
+	width: 100%;
+}
+
+.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-background-wrapper {
+	width: 33%;
+	float: left;
+}
+.epl-comparables-extension .epl-comparables-item-street,
+.epl-comparables-extension .epl-comparables-entry-title-sub {
+	display: block;
+	width: 100%;
+}
+
+
+.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-background-wrapper {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: none;
+}
+
+
+.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-outer-wrapper {
+	border-right: 1px solid #ddd;
+	margin-right: 1em;
+}
+.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-background-wrapper:last-child .epl-comparables-entry-outer-wrapper {
+	border-right: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+	.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-background-wrapper {
+		width: 100%;
+		float: none;
+	}
+	.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-background-wrapper {
+		border-bottom: 1px solid #ddd;
+	}
+	.epl-comparables-extension .epl-comparables-results .epl-comparables-entry-outer-wrapper {
+		border-right: none;
+		margin-right: 0;
+	}
+}
